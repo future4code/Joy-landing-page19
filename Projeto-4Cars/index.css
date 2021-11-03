@@ -41,6 +41,11 @@ footer div a p{
     display: none;
 }
 
+
+/* Tela de Desktop */
+
+@media screen and (min-device-width : 1200px) {
+
 /* barra de navegacao */
 
 #menu-centralizado ul{
@@ -79,9 +84,7 @@ footer div a p{
     padding: 10px;
   } 
 
-/* Tela de Desktop */
 
-@media screen and (min-device-width : 1200px) {
     footer{
         background-color:black ;
     }
