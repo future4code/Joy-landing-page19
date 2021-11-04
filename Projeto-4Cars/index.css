@@ -45,13 +45,13 @@ footer div a p{
 
 @media screen and (min-device-width : 1200px) {
     footer{
-        background-color:#ff5c5c ;
+        background-color:black;
     }
     footer div{
         justify-content: space-evenly;
     }
     footer nav{
-        background-color: rgba(0, 0, 0, 0.781);
+        background-color: #ff5c5c;
         display: flex;
         justify-content: space-evenly;
     }
