@@ -29,7 +29,7 @@
 }
 
 figure img {
-  display: none;
+  /* display: none; */
   margin: 0;
 }
 
@@ -232,6 +232,51 @@ footer div a p {
   font-size: 0.8rem;
   color: white;
   font-weight: bold;
+}
+
+
+/*main*/
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  row-gap: 16px;
+  column-gap: 16px;
+  margin: 12px;
+  flex-grow: 1;
+  
+}
+
+.card-produto {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 1em grey
+}
+
+.titulo-card {
+  margin: 8px 0
+}
+
+.imagem-card {
+  width: 100%;
+}
+
+.button-carros{
+  border-radius: 8px;
+  padding: 0.5em;
+  background-color: #ff5c5c;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 1em gray;
+  border: 2px solid white;
+  cursor: pointer;
+  float: left;
+
+
 }
 
   /* fale conosco */
