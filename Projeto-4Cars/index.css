@@ -2,6 +2,33 @@
   margin: 0;
   padding: 0;
 }
+/* banner */
+
+.card-tag{
+  display: none;
+}
+
+.card-image{
+  width: 70%;
+  margin-left: 50px;
+}
+.card{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.pacotes-title{
+  text-align: center;
+}
+
+.fonte-site{
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
 /* Barra do Banner */
 .barra-do-banner {
   background-color: #242424d7;
@@ -28,10 +55,9 @@
   background-color: #cf4e4e;
 }
 
-figure{
+figure img{
+  width: 100%;
   display: none;
-  margin: 0;
-  
 }
 
 .img-banner {
@@ -68,7 +94,6 @@ form{
   display: none;
 }
 
-
 .container-fale {
   border-radius: 5px;
   background-color: #d8d4d4;
@@ -77,8 +102,8 @@ form{
   height: 600px;
   text-align: center;
   margin: 20px
-
 }
+
 input[type=text] {
   width: 80%;
   padding: 12px 20px;
@@ -202,7 +227,7 @@ footer div a p {
     /* display: inline-block; */
     text-decoration: none;
     transition: background 0.6s;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: -200px;
   }
 
@@ -305,6 +330,7 @@ footer div a p {
   background: #ff5c5c;
   border-radius: 0 8px 8px 0;
   padding: 5px 10px;
+  display: flex;
 }
 
 .pacotes .card .card-tag p {
@@ -316,6 +342,11 @@ footer div a p {
 
 
 /*main*/
+
+figure img{
+  width: 100%;
+  display: flex;
+}
 
 main {
   display: grid;
