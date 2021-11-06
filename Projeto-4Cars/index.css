@@ -134,6 +134,106 @@ footer div a p {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   
+ /* sessão card */
+.pacotes {
+  background: rgb(226, 226, 226);
+  padding: 15px;
+}
+
+.pacotes .pacotes-cards {
+  display: flex;
+  margin: auto;
+  max-width: 950px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pacotes .pacotes-title {
+  width: 100%;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.pacotes .card{
+  width: 250px;
+  height: 350px;
+  background: rgb(255, 255, 255);
+  border-radius: 24px 0px;
+  margin: 25px;
+  position: relative;
+}
+
+
+.button-card{
+  color: white;
+  position: absolute;
+  left: 50px;
+  background: black;
+  padding: 5px 50px;
+
+}
+
+.pacotes .card-image {
+  width: 250px;
+  height: 200px;
+  border-radius: 24px 0 0 0;
+  object-fit: cover;
+}
+
+.pacotes .card-content {
+  padding: 0 15px;
+}
+
+.pacotes .card-content ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.pacotes .card-content ul li {
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  margin: 3px 0;
+  color: grey;
+  font-weight: bold;
+}
+
+.pacotes .card-content li svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.pacotes .card-content h1 {
+  font-size: 1rem;
+}
+
+.pacotes .card .card-tag-top {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  background: black;
+  border-radius: 8px 0 0 8px;
+  padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom {
+  position: absolute;
+  left: 0;
+  top: 160px;
+  background: #ff5c5c;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: bold;
+}
+
   /* fale conosco */
 
   .botao-fale{
@@ -278,3 +378,4 @@ footer div a p {
     color: whitesmoke;
   }
 }
+
