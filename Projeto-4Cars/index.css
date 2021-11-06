@@ -133,7 +133,118 @@ footer div a p {
   .fonte {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
+  
+  /* fale conosco */
 
+  .botao-fale{
+    margin-top: 250px;
+    margin-left: 520px;
+  }
+
+  .texto-fone{
+    margin-left: 80px;
+    margin-top: -55px;
+  }
+
+  form{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+
+  .container-fale {
+    border-radius: 5px;
+    background-color: #d8d4d4;
+    padding: 50px;
+    width: 650px;
+    height: 500px;
+    text-align: center;
+    margin: 20px
+
+  }
+
+  #grid-org{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .container-fale2 {
+    border-radius: 5px;
+    background-color: #d8d4d4;
+    padding: 50px;
+    width: 220px;
+    margin: 20px;
+    height: 70px;
+
+  }
+  .container-fale3 {
+    border-radius: 5px;
+    background-color: #d8d4d4;
+    padding: 50px;
+    width: 220px;
+    margin: 20px;
+
+  }
+  .container-fale4 {
+    border-radius: 5px;
+    background-color: #d8d4d4;
+    padding: 50px;
+    width: 220px;
+    margin: 20px;
+
+  }
+
+  input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    box-sizing: border-box;
+    border: 2px solid rgb(177, 169, 169);
+    border-radius: 4px;
+  }
+  
+
+  input[type=idade] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    box-sizing: border-box;
+    border: 2px solid rgb(177, 169, 169);
+    border-radius: 4px;
+  }
+
+  input[type=cidade] {
+    width: 46%;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    box-sizing: border-box;
+    border: 2px solid rgb(177, 169, 169);
+    border-radius: 4px;
+    
+  }
+
+  .texto-fale{
+    margin: 20px;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+  }
+
+  textarea {
+    width: 80.5%;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(177, 169, 169);
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    margin-right: -45px;
+    margin-bottom: -240px;
+  }
+  /* footer home*/
   li img {
     vertical-align: middle;
     padding: 10px;
