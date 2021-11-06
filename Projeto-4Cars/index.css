@@ -4,32 +4,32 @@
 }
 /* Barra do Banner */
 .barra-do-banner {
-  background-color: #2424248e;
+  background-color: #242424d7;
   display: grid;
   justify-content: center;
   color: rgb(252, 252, 252);
   padding: 1rem;
   justify-items: center;
-  border-radius: 25px;
-  margin-left: 5%;
-  margin-right: 5%;
+  /* border-radius: 25px; */
+  /* margin-left: 5%;
+  margin-right: 5%; */
 }
 
 .barra-do-banner button {
   border-radius: 8px;
   padding: 0.5em;
-  background-color: goldenrod;
+  background-color: #ff5c5c;
   margin-top: 1rem;
   border: 2px solid white;
   cursor: pointer;
   float: left;
 }
 .barra-do-banner button:hover {
-  background-color: rgb(202, 151, 20);
+  background-color: #cf4e4e;
 }
 
 figure img {
-  /* display: none; */
+  display: none;
   margin: 0;
 }
 
