@@ -2,6 +2,33 @@
   margin: 0;
   padding: 0;
 }
+/* banner */
+
+.card-tag{
+  display: none;
+}
+
+.card-image{
+  width: 70%;
+  margin-left: 50px;
+}
+.card{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.pacotes-title{
+  text-align: center;
+}
+
+.fonte-site{
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
 /* Barra do Banner */
 .barra-do-banner {
   background-color: #242424d7;
@@ -17,10 +44,10 @@
 
 .barra-do-banner button {
   border-radius: 8px;
-  padding: 0.5em;
+  padding: 0.4em;
   background-color: #ff5c5c;
-  margin-top: 1rem;
   border: 2px solid white;
+  margin: 1rem;
   cursor: pointer;
   float: left;
 }
@@ -28,8 +55,14 @@
   background-color: #cf4e4e;
 }
 
-figure img {
+
+figure img{
+  width: 100%;
+  display: none;
+=======
+figure{
   /* display: none; */
+
   width: 100%;
   height: 530px;
   display: table;
@@ -37,6 +70,11 @@ figure img {
   -webkit-background-size: contain;
   background-size: contain;
   background-position: top center; 
+
+  margin: 0;
+  
+
+
 }
 
 .img-banner {
@@ -73,7 +111,6 @@ form{
   display: none;
 }
 
-
 .container-fale {
   border-radius: 5px;
   background-color: #d8d4d4;
@@ -82,8 +119,8 @@ form{
   height: 600px;
   text-align: center;
   margin: 20px
-
 }
+
 input[type=text] {
   width: 80%;
   padding: 12px 20px;
@@ -136,6 +173,35 @@ textarea {
   margin: 20px;
 }
 
+main{
+  display: grid;
+  justify-items: center;
+  row-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.button-carros{
+  border-radius: 8px;
+  padding: 0.5em;
+  background-color: #ff5c5c;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 1em gray;
+  border: 2px solid white;
+  cursor: pointer;
+  float: left;
+}
+.card-produto {
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 1em grey
+}
+
+.imagem-card {
+  width: 15rem;
+}
 
 /* footer */
 
@@ -180,8 +246,8 @@ footer div a p {
 /* Tela de Desktop */
 
 @media screen and (min-device-width: 1280px) {
-  /* barra de navegacao */
 
+  /* barra de navegacao */
   #menu-centralizado ul {
     text-align: center;
     list-style: none;
@@ -207,7 +273,7 @@ footer div a p {
     /* display: inline-block; */
     text-decoration: none;
     transition: background 0.6s;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: -200px;
   }
 
@@ -310,6 +376,7 @@ footer div a p {
   background: #ff5c5c;
   border-radius: 0 8px 8px 0;
   padding: 5px 10px;
+  display: flex;
 }
 
 .pacotes .card .card-tag p {
@@ -337,6 +404,11 @@ footer div a p {
 }
 
 /*main*/
+
+figure img{
+  width: 100%;
+  display: flex;
+}
 
 main {
   display: grid;
