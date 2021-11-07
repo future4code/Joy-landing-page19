@@ -38,7 +38,7 @@ A página deve:
 
 ## 🤝 Colaboradores
 
-Agradecimento às seguintes pessoas que contribuíram para este projeto:
+Agradecimentos às seguintes pessoas que contribuíram para este projeto:
 
 <table>
   <tr>
