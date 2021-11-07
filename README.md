@@ -38,7 +38,7 @@ A página deve:
 
 ## 🤝 Colaboradores
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+Agradecimento às seguintes pessoas que contribuíram para este projeto:
 
 <table>
   <tr>
@@ -51,7 +51,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/future4code/Matheus-Grativol">
+      <a href="https://github.com/Matheusgrativol">
         <img src="https://avatars.githubusercontent.com/u/80927630?v=4" width="100px;" alt="Foto do matheus Grativol"/><br>
         <sub>
           <b>Matheus Grativol</b>
