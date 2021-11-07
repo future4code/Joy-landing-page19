@@ -46,7 +46,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="https://github.com/thaynareginam">
         <img src="https://avatars.githubusercontent.com/u/79390113?s…00&u=b065c64098c5b02a518c275d6d7449b1c2973559&v=4/u/31936044" width="100px;" alt="Foto da thayna regina no GitHub"/><br>
         <sub>
-          <bThayna Regina Manoel</b>
+          <b>Thayna Regina Manoel</b>
         </sub>
       </a>
     </td>
@@ -60,7 +60,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="https://github.com/jaolucas7">
-        <img src="	https://avatars.githubusercontent.com/u/89319592?v=4" width="100px;" alt="Foto do joao Lucas"/><br>
+        <img src="https://avatars.githubusercontent.com/u/89319592?v=4" width="100px;" alt="Foto do joao Lucas"/><br>
         <sub>
           <b>João Lucas</b>
         </sub>
