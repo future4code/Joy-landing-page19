@@ -2,7 +2,7 @@
 
 O Projeto consiste na escolha de uma das empresas fictícias seleciona, para criar uma Landing Page para ela. Ela deve apresentar informações sobre a empresa, produtos, etc. 
 
-link:glossy-stretch.surge.sh
+link: https://glossy-stretch.surge.sh/
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
