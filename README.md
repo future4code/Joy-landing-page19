@@ -1,6 +1,6 @@
 # Projeto Landing Page
 
-O Projeto consiste na escolha de uma das empresas fictícias seleciona, para criar uma Landing Page para ela. Deve apresentar informações sobre a empresa, produtos, etc. 
+O Projeto consiste na escolha de uma das empresas fictícias selecionadas, para criar uma Landing Page para ela. Deve ser apresentado informações sobre a empresa, produtos, etc. 
 
 link: https://glossy-stretch.surge.sh/
 
